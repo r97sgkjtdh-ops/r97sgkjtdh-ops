@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
-<title id="title">Vel — Développeur Swift</title><desc id="desc">Profil de Vel, développeur Swift et créateur de Constellation. Composition claire ivoire et corail, avec un monogramme V et des cartes reliées.</desc>
+<title id="title">Vel — Web et Swift</title><desc id="desc">Profil de Vel : développement web, Swift et applications macOS. Composition claire ivoire et corail, avec un monogramme V et des cartes reliées.</desc>
 <rect width="1400" height="420" rx="24" fill="#F6F7F9"/>
 <path d="M0 354H1400" stroke="#E1E5EC"/>
 <rect x="64" y="62" width="58" height="58" rx="16" fill="#241D2A"/>
 <path d="M79 78L93 105L107 78" stroke="#E0785A" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="145" y="101" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" fill="#17243B">VEL</text>
 <text x="64" y="203" font-family="Arial,Helvetica,sans-serif" font-size="54" font-weight="700" letter-spacing="-2" fill="#17243B">Des idées aux applications.</text>
-<text x="67" y="254" font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#526179">Développeur Swift · applications macOS natives.</text>
-<text x="67" y="296" font-family="Menlo,Consolas,monospace" font-size="18" fill="#B4532F">SwiftUI · AppKit · CryptoKit · Git · XCTest</text>
+<text x="67" y="254" font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#526179">Développement web · Swift · applications macOS.</text>
+<text x="67" y="296" font-family="Menlo,Consolas,monospace" font-size="18" fill="#B4532F">Interfaces · Applications · Outils de développement</text>
 <text x="67" y="390" font-family="Arial,Helvetica,sans-serif" font-size="17" letter-spacing="2" fill="#526179">PROJET ACTUEL</text>
 <text x="280" y="390" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#B4532F">CONSTELLATION</text>
 <g fill="none" stroke="#EDC3B3" stroke-width="2"><path d="M1050 170H1110V100H1170"/><path d="M1050 170H1110V260H1170"/></g>
