@@ -4,7 +4,17 @@
   <img src="assets/banner.svg" width="100%" alt="Vel — Web development, Swift and macOS apps">
 </p>
 
-<p align="center"><img src="assets/swift.svg" alt="Swift" height="28"> <img src="assets/swiftui.svg" alt="SwiftUI" height="28"> <img src="assets/appkit.svg" alt="AppKit" height="28"> <img src="assets/git.svg" alt="Git" height="28"> <img src="assets/xctest.svg" alt="XCTest" height="28"> </p>
+<p align="center"><strong>Apple & macOS</strong><br><br>
+<img src="assets/macos.svg" alt="macOS" height="28"> <img src="assets/swift.svg" alt="Swift" height="28"> <img src="assets/swiftui.svg" alt="SwiftUI" height="28"> <img src="assets/appkit.svg" alt="AppKit" height="28"> <img src="assets/webkit.svg" alt="WebKit" height="28"> <img src="assets/cryptokit.svg" alt="CryptoKit" height="28"> <img src="assets/pdfkit.svg" alt="PDFKit" height="28"> <img src="assets/charts.svg" alt="Charts" height="28">
+</p>
+
+<p align="center"><strong>Development tools</strong><br><br>
+<img src="assets/git.svg" alt="Git" height="28"> <img src="assets/bash.svg" alt="Bash" height="28"> <img src="assets/github-actions.svg" alt="GitHub Actions" height="28"> <img src="assets/swift-package-manager.svg" alt="Swift Package Manager" height="28"> <img src="assets/xctest.svg" alt="XCTest" height="28">
+</p>
+
+<p align="center"><strong>Exploring · web & other languages</strong><br><br>
+<img src="assets/html5.svg" alt="HTML5" height="28"> <img src="assets/css3.svg" alt="CSS3" height="28"> <img src="assets/javascript.svg" alt="JavaScript" height="28"> <img src="assets/typescript.svg" alt="TypeScript" height="28"> <img src="assets/python.svg" alt="Python" height="28"> <img src="assets/sql.svg" alt="SQL" height="28">
+</p>
 
 
 <p align="center">
