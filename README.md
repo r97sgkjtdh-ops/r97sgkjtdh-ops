@@ -57,16 +57,16 @@ Une demande est découpée en tâches par un coordinateur, réalisée par des so
 | **Isolation Git** | Chaque sous-agent peut travailler dans son propre worktree ; les contributions reviennent sous forme de patchs, intégrés tout ou rien, avec gestion des conflits. |
 | **Vrais terminaux** | Consoles PTY (SwiftTerm) : Ctrl-C, applications plein écran, truecolor, 10 000 lignes d’historique. L’état de Claude Code est suivi par ses hooks. |
 | **Mises à jour signées** | Archives signées en Ed25519 (CryptoKit), vérification de l’identifiant, de la version et de la signature de code ; installation qui sauvegarde l’ancienne version et les données avant de remplacer quoi que ce soit. |
-| **Données** | Enregistrement versionné avec copie précédente, instantanés et migration automatique des anciens formats et emplacements. |
-| **Système** | Dictée transcrite sur l’appareil (Speech), navigateur intégré (WebKit), export PDF (PDFKit), graphiques de consommation (Charts). |
+| **Données** | Enregistrement versionné avec copie précédente reprise automatiquement si un fichier est abîmé, instantanés et migration des anciens formats et emplacements (worktrees Git réparés). |
+| **Système** | Dictée transcrite sur l’appareil (Speech), navigateur intégré (WebKit), export PDF (PDFKit), graphiques de consommation (Charts), journal unifié (OSLog) et diagnostic exportable sans donnée personnelle. |
 
 ### En chiffres
 
-- **33 fichiers Swift**, environ **18 400 lignes** pour l’application et **1 800 lignes de tests**.
-- **80 tests XCTest**. Le moteur de missions est testé avec un faux CLI qui simule les agents : aucun appel payant n’est nécessaire pour vérifier le comportement.
+- **34 fichiers Swift**, environ **18 700 lignes** pour l’application et **1 800 lignes de tests**.
+- **82 tests XCTest**, lancés à chaque push par l’intégration continue (GitHub Actions, macOS). Le moteur de missions est testé avec un faux CLI qui simule les agents : aucun appel payant n’est nécessaire pour vérifier le comportement.
 - Distribution par **GitHub Releases**, mises à jour intégrées à l’application.
 
-**Disponibilité :** macOS 14 ou plus récent, Apple Silicon. Gratuite à l’usage, sous licence propriétaire : le dépôt public contient la documentation et les versions publiées.
+**Disponibilité :** macOS 14 ou plus récent, Mac Apple Silicon et Intel (application universelle). Gratuite à l’usage, sous licence propriétaire : le dépôt public contient la documentation et les versions publiées.
 
 [Découvrir le projet →](https://github.com/r97sgkjtdh-ops/constellation) · [Documentation →](https://github.com/r97sgkjtdh-ops/constellation#readme) · [Versions →](https://github.com/r97sgkjtdh-ops/constellation/releases)
 
@@ -74,7 +74,7 @@ Une demande est découpée en tâches par un coordinateur, réalisée par des so
 
 | Langages | Frameworks Apple | Outils |
 | :--- | :--- | :--- |
-| Swift · Bash | SwiftUI · AppKit · CryptoKit · WebKit · Speech · PDFKit · Charts | Swift Package Manager · Git · GitHub CLI · XCTest |
+| Swift · Bash | SwiftUI · AppKit · CryptoKit · WebKit · Speech · PDFKit · Charts | Swift Package Manager · Git · GitHub CLI · GitHub Actions · XCTest |
 
 ## Ma façon de coder
 
