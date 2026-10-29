@@ -74,7 +74,7 @@ Une demande est découpée en tâches par un coordinateur, réalisée par des so
 
 | Langages | Frameworks Apple | Outils |
 | :--- | :--- | :--- |
-| Swift · Bash | SwiftUI · AppKit · CryptoKit · WebKit · Speech · PDFKit · Charts | Swift Package Manager · Git · GitHub CLI · GitHub Actions · XCTest |
+| Swift · Bash | SwiftUI · AppKit · CryptoKit · WebKit · Speech · PDFKit · Charts · OSLog | Swift Package Manager · Git · GitHub CLI · GitHub Actions · XCTest |
 
 ## Ma façon de coder
 
