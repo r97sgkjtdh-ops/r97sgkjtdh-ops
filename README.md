@@ -1,155 +1,159 @@
-<p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Vel — développement web, Swift et applications macOS">
-</p>
+<p align="center"><a href="README.md">English</a> &nbsp; · &nbsp; <a href="README.fr.md">Français</a></p>
 
 <p align="center">
-  <a href="#bonjour-moi-cest-vel">À propos</a> ·
-  <a href="#projet-principal--constellation">Constellation</a> ·
-  <a href="https://github.com/r97sgkjtdh-ops/constellation/releases/latest">Télécharger</a> ·
-  <a href="https://github.com/r97sgkjtdh-ops/constellation/issues">Retours</a>
+  <img src="assets/banner.svg" width="100%" alt="Vel — Web development, Swift and macOS apps">
 </p>
 
-## Bonjour, moi c’est Vel
+<p align="center"><img src="assets/swift.svg" alt="Swift" height="28"> <img src="assets/swiftui.svg" alt="SwiftUI" height="28"> <img src="assets/appkit.svg" alt="AppKit" height="28"> <img src="assets/git.svg" alt="Git" height="28"> <img src="assets/xctest.svg" alt="XCTest" height="28"> </p>
 
-Je crée des applications et m’intéresse au **développement web**, à **Swift** et aux outils qui rendent le travail des développeurs plus simple. J’aime transformer une idée en une interface claire, puis construire le fonctionnement qui la rend utile.
 
-Mon projet principal est **Constellation**, une application macOS native en Swift. Elle réunit des consoles et organise le travail d’agents de code autour de missions, de tâches et de contrôles.
+<p align="center">
+  <a href="#hi-im-vel">About</a> ·
+  <a href="#featured-project--constellation">Constellation</a> ·
+  <a href="https://github.com/r97sgkjtdh-ops/constellation/releases/latest">Download</a> ·
+  <a href="https://github.com/r97sgkjtdh-ops/constellation/issues">Feedback</a>
+</p>
 
-## Du besoin à l’application
+## Hi, I’m Vel
 
-Ce qui m’intéresse dans le développement, c’est le lien entre **le code, l’interface et l’usage réel**. Une fonctionnalité doit être compréhensible à l’écran, utile au quotidien et suffisamment structurée pour pouvoir évoluer.
+I build applications and explore **web development**, **Swift**, and tools that make developers’ work easier. I enjoy turning an idea into a clear interface, then building the behavior that makes it useful.
 
-Je porte une attention particulière aux outils qui donnent de la visibilité sur ce qui se passe : état d’une tâche, résultat d’une commande, progression d’une opération ou erreur à corriger. Cette approche est au cœur de Constellation.
+My main project is **Constellation**, a native macOS application built with Swift. It brings consoles together and organizes coding agents around missions, tasks, and checks.
 
-## Ce qui m’intéresse
+## From a need to an application
 
-- **Applications natives** : concevoir des interfaces macOS avec SwiftUI et AppKit, intégrées à leur environnement.
-- **Développement web** : créer des interfaces lisibles, une navigation simple et des pages adaptées aux différents écrans.
-- **Outils de développement** : relier les terminaux, Git, l’automatisation et le suivi des tâches.
-- **Qualité du logiciel** : vérifier le comportement, rendre les erreurs compréhensibles et prévoir la récupération des données.
+What interests me is the connection between **code, interface design, and real-world use**. A feature should make sense on screen, help with an actual task, and remain maintainable as the application evolves.
 
-## Langages et technologies
+I pay particular attention to visibility: the state of a task, the result of a command, the progress of an operation, or an error that needs attention. This approach is central to Constellation.
 
-| Domaine | Technologies et centres d’intérêt |
+## Areas of interest
+
+- **Native applications** — macOS interfaces built with SwiftUI and AppKit that feel at home on the desktop.
+- **Web development** — readable interfaces, straightforward navigation, and layouts that adapt to different screens.
+- **Developer tools** — terminals, Git, automation, and task tracking in a connected workflow.
+- **Software quality** — useful checks, understandable errors, and ways to recover data.
+
+## Languages & technologies
+
+| Area | Technologies and interests |
 | :--- | :--- |
-| Application actuelle | Swift, SwiftUI, AppKit |
-| Web et langages à approfondir | HTML, CSS, JavaScript, TypeScript |
-| Scripts et automatisation | Bash ; intérêt pour Python |
-| Développement et vérification | Git, GitHub Actions, Swift Package Manager, XCTest |
-| Intégrations macOS de Constellation | WebKit, CryptoKit, PDFKit, Charts |
+| Current application | Swift, SwiftUI, AppKit |
+| Web technologies I’m exploring | HTML, CSS, JavaScript, TypeScript |
+| Scripting and automation | Bash; an interest in Python |
+| Development and verification | Git, GitHub Actions, Swift Package Manager, XCTest |
+| Constellation’s macOS integrations | WebKit, CryptoKit, PDFKit, Charts |
 
-Je choisis les technologies selon le projet et continue à élargir mes connaissances au fil des réalisations.
+I choose technologies around the needs of a project and keep expanding my knowledge through practical work.
 
-## Développement web
+## Web development
 
-Le web est un axe que je souhaite approfondir, avec un intérêt pour toute la chaîne qui relie une interface à ses données.
+Web development is an area I want to explore further, from the interface to the data behind it.
 
-| Sujet | Ce qui m’intéresse |
+| Topic | What interests me |
 | :--- | :--- |
-| **Interfaces** | Structurer une page, organiser les composants et rendre les actions faciles à comprendre. |
-| **Responsive** | Adapter les mises en page au téléphone, à la tablette et à l’ordinateur. |
-| **Interactions** | Concevoir des formulaires, des filtres et des retours visuels utiles. |
-| **Accessibilité** | Prévoir la navigation au clavier, des libellés explicites et des contrastes lisibles. |
-| **API et données** | Comprendre les échanges client-serveur, la validation des entrées et la gestion des erreurs. |
-| **Performance** | Limiter les chargements inutiles et garder une interface réactive. |
+| **Interfaces** | Structuring pages, organizing components, and making actions easy to understand. |
+| **Responsive layouts** | Adapting an interface to phones, tablets, and desktop screens. |
+| **Interactions** | Designing forms, filters, and useful visual feedback. |
+| **Accessibility** | Keyboard navigation, clear labels, and readable contrast. |
+| **APIs and data** | Client-server communication, input validation, and error handling. |
+| **Performance** | Avoiding unnecessary loading and keeping interfaces responsive. |
 
-**HTML et CSS** pour la structure et la présentation ; **JavaScript et TypeScript** pour les interactions et la logique des applications web. Ce sont des pistes de progression, pas une liste de projets déjà livrés.
+**HTML and CSS** for structure and presentation; **JavaScript and TypeScript** for interactions and application logic. These are learning interests, rather than a list of shipped web projects.
 
-## Swift et l’écosystème Apple
+## Swift & the Apple ecosystem
 
-Avec Constellation, le développement natif constitue la partie la plus concrète de mon portfolio.
+Through Constellation, native development is the most concrete part of my portfolio.
 
-- **Swift** pour la logique de l’application, les modèles de données et la gestion des opérations.
-- **SwiftUI et AppKit** pour les vues, les fenêtres et l’intégration avec macOS.
-- **WebKit** pour le navigateur intégré et **PDFKit** pour les fonctions liées au PDF.
-- **Charts** pour représenter les données de consommation.
-- **CryptoKit** pour les mécanismes cryptographiques utilisés par les mises à jour.
-- **XCTest et GitHub Actions** pour accompagner les changements par des vérifications automatisées.
+- **Swift** for application logic, data models, and operations.
+- **SwiftUI and AppKit** for views, windows, and macOS integration.
+- **WebKit** for the integrated browser and **PDFKit** for PDF functionality.
+- **Charts** for usage visualizations.
+- **CryptoKit** for cryptographic mechanisms used by updates.
+- **XCTest and GitHub Actions** for automated verification alongside changes.
 
-Ce qui m’attire dans cet environnement : une application qui s’intègre au bureau, des interactions cohérentes et un accès direct aux capacités du système.
+What draws me to this environment is desktop integration, consistent interactions, and access to the capabilities of the operating system.
 
-## Scripts, outils et autres langages
+## Scripting, tools & other languages
 
-Je m’intéresse aussi à ce qui entoure l’application : préparer un environnement, lancer une commande, vérifier un résultat ou distribuer une nouvelle version.
+I’m also interested in the work surrounding an application: preparing an environment, running commands, checking results, and distributing a release.
 
-- **Bash** : scripts de construction, commandes et automatisation autour du projet.
-- **Git** : suivi des changements, branches, worktrees et intégration des contributions.
-- **Python** : langage que je souhaite approfondir pour les scripts utilitaires et le traitement de données.
-- **TypeScript** : piste de progression pour structurer des applications web avec des types explicites.
-- **SQL** : sujet à explorer pour mieux comprendre la modélisation et les requêtes sur des données persistantes.
+- **Bash** — build scripts, commands, and project automation.
+- **Git** — tracking changes, branches, worktrees, and integrating contributions.
+- **Python** — a language I want to explore further for utility scripts and data processing.
+- **TypeScript** — a learning direction for structuring web applications with explicit types.
+- **SQL** — an area to explore for data modeling and querying persistent data.
 
-L’objectif est de choisir un outil adapté au problème, puis de comprendre ses limites et de garder le code lisible.
+The goal is to select a suitable tool, understand its limits, and keep the code readable.
 
-## Projet principal · Constellation
+## Featured project · Constellation
 
-**Un espace de travail macOS pour coordonner des agents de code et suivre leurs missions.**
+**A macOS workspace for coordinating coding agents and following their missions.**
 
-<a href="https://github.com/r97sgkjtdh-ops/constellation">
-  <img src="https://raw.githubusercontent.com/r97sgkjtdh-ops/constellation/main/docs/images/board-mission.png" width="100%" alt="Constellation : tableau de mission avec coordinateur, tâches et sous-agents">
-</a>
+<a href="https://github.com/r97sgkjtdh-ops/constellation"><img src="https://raw.githubusercontent.com/r97sgkjtdh-ops/constellation/main/docs/images/board-mission.png" width="100%" alt="Constellation mission board showing a coordinator, tasks, and sub-agents"></a>
 
-- **Coordination** : une mission est répartie en tâches, avec des dépendances et des délégations à des sous-agents.
-- **Visibilité** : consoles, carte de mission et états des tâches permettent de suivre l’avancement.
-- **Vérification et isolation** : commandes de test, revue et worktrees Git accompagnent le travail et son intégration.
+- **Coordination** — break a mission into tasks, dependencies, and delegations to sub-agents.
+- **Visibility** — follow progress through consoles, a mission map, and task states.
+- **Verification and isolation** — use test commands, reviews, and Git worktrees to support execution and integration.
 
-### Ce que l’application réunit
+### What the application brings together
 
-| Fonction | Utilité |
+| Feature | Purpose |
 | :--- | :--- |
-| **Coordinateur et sous-agents** | Répartir une demande en tâches et suivre les délégations. |
-| **Carte de mission** | Visualiser les tâches, leurs relations et leur état. |
-| **Consoles intégrées** | Suivre les commandes et les processus dans un même espace. |
-| **Worktrees Git** | Isoler le travail avant de réintégrer les contributions. |
-| **Contrôles et revue** | Exécuter des vérifications et organiser les corrections. |
-| **Suivi de consommation** | Consulter l’activité et les indicateurs disponibles. |
-| **Sauvegardes et mises à jour** | Accompagner l’évolution de l’application avec des mécanismes de récupération. |
+| **Coordinator and sub-agents** | Distribute a request across tasks and follow delegations. |
+| **Mission map** | Visualize tasks, their relationships, and their state. |
+| **Integrated consoles** | Follow commands and processes in one workspace. |
+| **Git worktrees** | Isolate work before integrating contributions. |
+| **Checks and review** | Run verification commands and organize corrections. |
+| **Usage tracking** | Inspect activity and the available indicators. |
+| **Backups and updates** | Support application changes with recovery mechanisms. |
 
-<details>
-<summary><strong>Voir deux autres vues de Constellation</strong></summary>
+### A closer look
 
-### Préparer une mission
+<table>
+<tr>
+<td width="50%" valign="top"><a href="https://raw.githubusercontent.com/r97sgkjtdh-ops/constellation/main/docs/images/new-mission.png"><img src="https://raw.githubusercontent.com/r97sgkjtdh-ops/constellation/main/docs/images/new-mission.png" width="100%" alt="Plan a mission"></a><br><strong>Plan a mission</strong><br><sub>Set an objective and the checks to run.</sub></td>
+<td width="50%" valign="top"><a href="https://raw.githubusercontent.com/r97sgkjtdh-ops/constellation/main/docs/images/mission-map.png"><img src="https://raw.githubusercontent.com/r97sgkjtdh-ops/constellation/main/docs/images/mission-map.png" width="100%" alt="Follow the work"></a><br><strong>Follow the work</strong><br><sub>See tasks and their relationships.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://raw.githubusercontent.com/r97sgkjtdh-ops/constellation/main/docs/images/signin.png"><img src="https://raw.githubusercontent.com/r97sgkjtdh-ops/constellation/main/docs/images/signin.png" width="100%" alt="Get started"></a><br><strong>Get started</strong><br><sub>A dedicated sign-in experience.</sub></td>
+<td width="50%" valign="top"><a href="https://raw.githubusercontent.com/r97sgkjtdh-ops/constellation/main/docs/images/usage.png"><img src="https://raw.githubusercontent.com/r97sgkjtdh-ops/constellation/main/docs/images/usage.png" width="100%" alt="Review usage"></a><br><strong>Review usage</strong><br><sub>Inspect the available usage indicators.</sub></td>
+</tr>
+</table>
 
-<img src="https://raw.githubusercontent.com/r97sgkjtdh-ops/constellation/main/docs/images/new-mission.png" width="100%" alt="Création d’une mission dans Constellation">
 
-### Suivre les relations entre les tâches
+### Engineering behind the product
 
-<img src="https://raw.githubusercontent.com/r97sgkjtdh-ops/constellation/main/docs/images/mission-map.png" width="100%" alt="Carte des tâches et de leurs relations dans Constellation">
+Building this workspace involves several questions: how to represent a mission, manage task dependencies, follow processes, and report a failure clearly. Git integration and persistence add further constraints: retaining contributions, handling conflicts, and planning recovery.
 
-</details>
+The project brings together **interface design, process management, orchestration, backups, and automated tests**. Features and limitations for each release are described in the project documentation.
 
-### Les sujets techniques derrière le produit
+The application is distributed through GitHub Releases. The public repository contains documentation, screenshots, and published releases; the source code is private.
 
-Construire cet espace de travail fait intervenir plusieurs questions : comment représenter une mission, gérer les dépendances entre tâches, suivre des processus et présenter un échec sans le masquer. L’intégration Git et la persistance ajoutent d’autres contraintes : conserver les contributions, gérer les conflits et prévoir une reprise.
+[Explore the project →](https://github.com/r97sgkjtdh-ops/constellation) · [Download →](https://github.com/r97sgkjtdh-ops/constellation/releases/latest) · [Documentation →](https://github.com/r97sgkjtdh-ops/constellation#readme)
 
-Ce projet réunit ainsi **conception d’interfaces, gestion des processus, orchestration, sauvegardes et tests automatisés**. Les fonctionnalités et les limites de chaque version sont détaillées dans la documentation du projet.
+## How I approach development
 
-L’application est distribuée via GitHub Releases. Le dépôt public rassemble sa documentation, ses captures et les versions publiées ; le code source est privé.
+- **Start with the use case** — understand the need before adding features.
+- **Care about the interface** — prioritize readability, consistency, and understandable actions.
+- **Verify the result** — use tests and practical checks, then document known limitations.
+- **Protect data** — plan backups and recovery procedures.
+- **Improve incrementally** — fix, simplify, and evolve the project through feedback.
 
-[Découvrir le projet →](https://github.com/r97sgkjtdh-ops/constellation) · [Télécharger →](https://github.com/r97sgkjtdh-ops/constellation/releases/latest) · [Documentation →](https://github.com/r97sgkjtdh-ops/constellation#readme)
+## What I want to work on next
 
-## Ma démarche
+- **Develop Constellation further** around actual usage and reported problems.
+- **Explore web development** from interfaces to API communication.
+- **Strengthen code quality** with clear responsibilities, explicit errors, and useful tests.
+- **Improve documentation** with examples, screenshots, and reproducible instructions.
+- **Explore other languages** when they answer a concrete need.
 
-- **Partir de l’usage** : comprendre le besoin avant d’ajouter des fonctionnalités.
-- **Soigner l’interface** : privilégier la lisibilité, la cohérence et des actions compréhensibles.
-- **Vérifier le résultat** : utiliser des tests et des essais concrets, puis documenter les limites connues.
-- **Préserver les données** : prévoir des sauvegardes et des procédures de retour arrière.
-- **Améliorer progressivement** : corriger, simplifier et faire évoluer le projet à partir des retours.
+## What you’ll find here
 
-## Mes priorités de progression
+Applications, their evolution, and the technical choices behind them. Constellation’s published releases and documentation are available on GitHub. The other areas on this profile describe my interests and learning directions.
 
-- **Faire évoluer Constellation** à partir des usages et des problèmes rencontrés.
-- **Approfondir le développement web**, de l’interface aux échanges avec une API.
-- **Renforcer la qualité du code** : responsabilités claires, erreurs explicites et tests utiles.
-- **Mieux documenter les projets** avec des exemples, des captures et des instructions reproductibles.
-- **Explorer d’autres langages** lorsqu’ils répondent à un besoin concret.
+## Project feedback
 
-## Ce que je souhaite partager ici
-
-Des applications, leurs évolutions et les choix techniques qui les accompagnent. Pour Constellation, les versions publiées et la documentation sont accessibles sur GitHub. Les autres domaines présentés sur ce profil décrivent mes centres d’intérêt et mes axes de progression.
-
-## Échanger autour du projet
-
-Pour signaler un problème ou proposer une amélioration de Constellation, [ouvre une issue sur le dépôt](https://github.com/r97sgkjtdh-ops/constellation/issues).
+To report a problem or suggest an improvement to Constellation, [open an issue on the project repository](https://github.com/r97sgkjtdh-ops/constellation/issues).
 
 ---
-<p align="center"><sub>Vel · Développement web · Swift · Applications macOS</sub></p>
+<p align="center"><sub>Vel · Web development · Swift · macOS applications</sub></p>
