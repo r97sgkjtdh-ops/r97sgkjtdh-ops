@@ -1,91 +1,68 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Vel — Développeur Swift, applications macOS natives">
+  <img src="assets/banner.svg" width="100%" alt="Vel — développement web, Swift et applications macOS">
 </p>
 
 <p align="center">
-  <a href="https://github.com/r97sgkjtdh-ops/constellation">Constellation</a> ·
+  <a href="#bonjour-moi-cest-vel">À propos</a> ·
+  <a href="#projet-principal--constellation">Constellation</a> ·
   <a href="https://github.com/r97sgkjtdh-ops/constellation/releases/latest">Télécharger</a> ·
   <a href="https://github.com/r97sgkjtdh-ops/constellation/issues">Retours</a>
 </p>
 
 ## Bonjour, moi c’est Vel
 
-Je développe des **applications macOS natives en Swift**. Je m’intéresse surtout aux outils de développement : faire travailler plusieurs processus ensemble, garder les données en sécurité et prouver qu’un résultat est correct plutôt que le supposer.
+Je crée des applications et m’intéresse au **développement web**, à **Swift** et aux outils qui rendent le travail des développeurs plus simple. J’aime transformer une idée en une interface claire, puis construire le fonctionnement qui la rend utile.
 
-Mon projet principal est **Constellation**, un espace de travail pour piloter des agents de code sur Mac.
+Mon projet principal est **Constellation**, une application macOS native en Swift. Elle réunit des consoles et organise le travail d’agents de code autour de missions, de tâches et de contrôles.
 
-## Constellation
+## Ce qui m’intéresse
 
-**Un tableau macOS qui réunit tes agents de code et coordonne des missions vérifiées.**
+- **Applications natives** : concevoir des interfaces macOS avec SwiftUI et AppKit, intégrées à leur environnement.
+- **Développement web** : créer des interfaces lisibles, une navigation simple et des pages adaptées aux différents écrans.
+- **Outils de développement** : relier les terminaux, Git, l’automatisation et le suivi des tâches.
+- **Qualité du logiciel** : vérifier le comportement, rendre les erreurs compréhensibles et prévoir la récupération des données.
 
-Une demande est découpée en tâches par un coordinateur, réalisée par des sous-agents, puis contrôlée par l’application elle-même : elle exécute les commandes de test avant de déclarer quoi que ce soit réussi.
+## Langages et technologies
+
+| Domaine | Technologies et centres d’intérêt |
+| :--- | :--- |
+| Application actuelle | Swift, SwiftUI, AppKit |
+| Web et langages à approfondir | HTML, CSS, JavaScript, TypeScript |
+| Scripts et automatisation | Bash ; intérêt pour Python |
+| Développement et vérification | Git, GitHub Actions, Swift Package Manager, XCTest |
+| Intégrations macOS de Constellation | WebKit, CryptoKit, PDFKit, Charts |
+
+Je choisis les technologies selon le projet et continue à élargir mes connaissances au fil des réalisations.
+
+## Projet principal · Constellation
+
+**Un espace de travail macOS pour coordonner des agents de code et suivre leurs missions.**
 
 <a href="https://github.com/r97sgkjtdh-ops/constellation">
-  <img src="https://raw.githubusercontent.com/r97sgkjtdh-ops/constellation/main/docs/images/board-mission.png" width="100%" alt="Constellation : une mission répartie entre un coordinateur et ses sous-agents">
+  <img src="https://raw.githubusercontent.com/r97sgkjtdh-ops/constellation/main/docs/images/board-mission.png" width="100%" alt="Constellation : tableau de mission avec coordinateur, tâches et sous-agents">
 </a>
 
-### En images
+- **Coordination** : une mission est répartie en tâches, avec des dépendances et des délégations à des sous-agents.
+- **Visibilité** : consoles, carte de mission et états des tâches permettent de suivre l’avancement.
+- **Vérification et isolation** : commandes de test, revue et worktrees Git accompagnent le travail et son intégration.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="https://raw.githubusercontent.com/r97sgkjtdh-ops/constellation/main/docs/images/signin.png" alt="Page d'accueil de Constellation : connexion au compte Claude sur un ciel étoilé">
-      <br><sub><b>Accueil</b> · connexion au compte Claude, emblème animé.</sub>
-    </td>
-    <td width="50%" valign="top">
-      <img src="https://raw.githubusercontent.com/r97sgkjtdh-ops/constellation/main/docs/images/new-mission.png" alt="Fenêtre de création d'une mission">
-      <br><sub><b>Nouvelle mission</b> · objectif, commandes de contrôle, mode d'isolation.</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="https://raw.githubusercontent.com/r97sgkjtdh-ops/constellation/main/docs/images/mission-map.png" alt="Carte de mission : consoles, tâches et relations">
-      <br><sub><b>Carte de mission</b> · consoles, tâches, sous-tâches et leurs relations.</sub>
-    </td>
-    <td width="50%" valign="top">
-      <img src="https://raw.githubusercontent.com/r97sgkjtdh-ops/constellation/main/docs/images/usage.png" alt="Page Consommation : tokens par jour et par modèle">
-      <br><sub><b>Consommation</b> · tokens par jour, par modèle et par projet.</sub>
-    </td>
-  </tr>
-</table>
+Ce projet réunit plusieurs sujets qui m’intéressent : conception d’interfaces, gestion des processus, orchestration des tâches, sauvegardes et tests automatisés.
 
-### Sous le capot
+L’application est distribuée via GitHub Releases. Le dépôt public rassemble sa documentation, ses captures et les versions publiées ; le code source est privé.
 
-| Domaine | Ce que fait le code |
-| :--- | :--- |
-| **Moteur de missions** | Plan validé (clés, dépendances, détection de cycles), tâches lancées en parallèle quand leurs fichiers ne se recouvrent pas, corrections, revue indépendante, délégation en cascade sous budget. |
-| **Isolation Git** | Chaque sous-agent peut travailler dans son propre worktree ; les contributions reviennent sous forme de patchs, intégrés tout ou rien, avec gestion des conflits. |
-| **Vrais terminaux** | Consoles PTY (SwiftTerm) : Ctrl-C, applications plein écran, truecolor, 10 000 lignes d’historique. L’état de Claude Code est suivi par ses hooks. |
-| **Mises à jour signées** | Archives signées en Ed25519 (CryptoKit), vérification de l’identifiant, de la version et de la signature de code ; installation qui sauvegarde l’ancienne version et les données avant de remplacer quoi que ce soit. |
-| **Données** | Enregistrement versionné avec copie précédente reprise automatiquement si un fichier est abîmé, instantanés et migration des anciens formats et emplacements (worktrees Git réparés). |
-| **Système** | Dictée transcrite sur l’appareil (Speech), navigateur intégré (WebKit), export PDF (PDFKit), graphiques de consommation (Charts), journal unifié (OSLog) et diagnostic exportable sans donnée personnelle. |
+[Découvrir le projet →](https://github.com/r97sgkjtdh-ops/constellation) · [Télécharger →](https://github.com/r97sgkjtdh-ops/constellation/releases/latest) · [Documentation →](https://github.com/r97sgkjtdh-ops/constellation#readme)
 
-### En chiffres
+## Ma démarche
 
-- **34 fichiers Swift**, environ **18 700 lignes** pour l’application et **1 800 lignes de tests**.
-- **82 tests XCTest**, lancés à chaque push par l’intégration continue (GitHub Actions, macOS). Le moteur de missions est testé avec un faux CLI qui simule les agents : aucun appel payant n’est nécessaire pour vérifier le comportement.
-- Distribution par **GitHub Releases**, mises à jour intégrées à l’application.
+- **Partir de l’usage** : comprendre le besoin avant d’ajouter des fonctionnalités.
+- **Soigner l’interface** : privilégier la lisibilité, la cohérence et des actions compréhensibles.
+- **Vérifier le résultat** : utiliser des tests et des essais concrets, puis documenter les limites connues.
+- **Préserver les données** : prévoir des sauvegardes et des procédures de retour arrière.
+- **Améliorer progressivement** : corriger, simplifier et faire évoluer le projet à partir des retours.
 
-**Disponibilité :** macOS 14 ou plus récent, Mac Apple Silicon et Intel (application universelle). Gratuite à l’usage, sous licence propriétaire : le dépôt public contient la documentation et les versions publiées.
+## Échanger autour du projet
 
-[Découvrir le projet →](https://github.com/r97sgkjtdh-ops/constellation) · [Documentation →](https://github.com/r97sgkjtdh-ops/constellation#readme) · [Versions →](https://github.com/r97sgkjtdh-ops/constellation/releases)
-
-## Outils
-
-| Langages | Frameworks Apple | Outils |
-| :--- | :--- | :--- |
-| Swift · Bash | SwiftUI · AppKit · CryptoKit · WebKit · Speech · PDFKit · Charts · OSLog | Swift Package Manager · Git · GitHub CLI · GitHub Actions · XCTest |
-
-## Ma façon de coder
-
-- **Prouver plutôt que supposer** : un résultat n’est validé que par une commande exécutée, pas par une affirmation.
-- **Ne jamais perdre de données** : sauvegarde avant chaque remplacement, et une procédure pour revenir en arrière.
-- **Tester sans dépendre du réseau** : des doublures pour les outils externes, et les essais réels gardés pour la fin.
-- **Dire ce qui n’est pas vérifié** : les limites connues sont écrites dans la documentation.
-
-## Échanger
-
-Un bug, une idée ou une question sur Constellation ? [Ouvre une issue sur le projet](https://github.com/r97sgkjtdh-ops/constellation/issues/new/choose).
+Pour signaler un problème ou proposer une amélioration de Constellation, [ouvre une issue sur le dépôt](https://github.com/r97sgkjtdh-ops/constellation/issues).
 
 ---
-<p align="center"><sub>Vel · Swift · applications macOS natives</sub></p>
+<p align="center"><sub>Vel · Développement web · Swift · Applications macOS</sub></p>
