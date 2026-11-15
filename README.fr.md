@@ -21,6 +21,8 @@
 <p align="center">
   <a href="#bonjour-moi-cest-vel">À propos</a> ·
   <a href="#projet-principal--ovra">Ovra</a> ·
+  <a href="#nouveau-projet--octo">Octo</a> ·
+  <a href="https://vel-portfolio-xi.vercel.app">Portfolio</a> ·
   <a href="https://github.com/r97sgkjtdh-ops/ovra/releases/latest">Télécharger</a> ·
   <a href="https://github.com/r97sgkjtdh-ops/ovra/issues">Retours</a>
 </p>
@@ -29,13 +31,13 @@
 
 Je crée des applications et m’intéresse au **développement web**, à **Swift** et aux outils qui rendent le travail des développeurs plus simple. J’aime transformer une idée en une interface claire, puis construire le fonctionnement qui la rend utile.
 
-Mon projet principal est **Ovra**, une application macOS native en Swift. Elle réunit des consoles et organise le travail d’agents de code autour de missions, de tâches et de contrôles.
+Mon projet principal est **Ovra**, une application macOS native en Swift. Elle réunit des consoles et organise le travail d’agents de code autour de missions, de tâches et de contrôles. Le plus récent est **Octo**, natif lui aussi et écrit en Swift : des terminaux côte à côte, où plusieurs IA font équipe.
 
 ## Du besoin à l’application
 
 Ce qui m’intéresse dans le développement, c’est le lien entre **le code, l’interface et l’usage réel**. Une fonctionnalité doit être compréhensible à l’écran, utile au quotidien et suffisamment structurée pour pouvoir évoluer.
 
-Je porte une attention particulière aux outils qui donnent de la visibilité sur ce qui se passe : état d’une tâche, résultat d’une commande, progression d’une opération ou erreur à corriger. Cette approche est au cœur d’Ovra.
+Je porte une attention particulière aux outils qui donnent de la visibilité sur ce qui se passe : état d’une tâche, résultat d’une commande, progression d’une opération ou erreur à corriger. Cette approche est au cœur d’Ovra et d’Octo.
 
 ## Ce qui m’intéresse
 
@@ -48,8 +50,8 @@ Je porte une attention particulière aux outils qui donnent de la visibilité su
 
 | Domaine | Technologies et centres d’intérêt |
 | :--- | :--- |
-| Application actuelle | Swift, SwiftUI, AppKit |
-| Web et langages à approfondir | HTML, CSS, JavaScript, TypeScript |
+| Applications actuelles | Swift, SwiftUI, AppKit ; SwiftTerm pour les terminaux d’Octo |
+| Web | HTML, CSS, JavaScript (mon portfolio) ; TypeScript à approfondir |
 | Scripts et automatisation | Bash ; intérêt pour Python |
 | Développement et vérification | Git, GitHub Actions, Swift Package Manager, XCTest |
 | Intégrations macOS d’Ovra | WebKit, CryptoKit, PDFKit, Charts |
@@ -69,17 +71,18 @@ Le web est un axe que je souhaite approfondir, avec un intérêt pour toute la c
 | **API et données** | Comprendre les échanges client-serveur, la validation des entrées et la gestion des erreurs. |
 | **Performance** | Limiter les chargements inutiles et garder une interface réactive. |
 
-**HTML et CSS** pour la structure et la présentation ; **JavaScript et TypeScript** pour les interactions et la logique des applications web. Ce sont des pistes de progression, pas une liste de projets déjà livrés.
+**HTML et CSS** pour la structure et la présentation ; **JavaScript et TypeScript** pour les interactions et la logique des applications web. Mon premier projet web publié est [mon portfolio](https://vel-portfolio-xi.vercel.app) : une seule page en HTML, CSS et JavaScript, avec des animations sur canvas et sans framework. Le reste, ce sont des pistes de progression.
 
 ## Swift et l’écosystème Apple
 
-Avec Ovra, le développement natif constitue la partie la plus concrète de mon portfolio.
+Avec Ovra et Octo, le développement natif constitue la partie la plus concrète de mon portfolio.
 
 - **Swift** pour la logique de l’application, les modèles de données et la gestion des opérations.
 - **SwiftUI et AppKit** pour les vues, les fenêtres et l’intégration avec macOS.
 - **WebKit** pour le navigateur intégré et **PDFKit** pour les fonctions liées au PDF.
 - **Charts** pour représenter les données de consommation.
 - **CryptoKit** pour les mécanismes cryptographiques utilisés par les mises à jour.
+- **SwiftTerm** pour l’émulation des terminaux d’Octo.
 - **XCTest et GitHub Actions** pour accompagner les changements par des vérifications automatisées.
 
 Ce qui m’attire dans cet environnement : une application qui s’intègre au bureau, des interactions cohérentes et un accès direct aux capacités du système.
@@ -144,6 +147,21 @@ L’application est distribuée via GitHub Releases. Le dépôt public rassemble
 
 [Découvrir le projet →](https://github.com/r97sgkjtdh-ops/ovra) · [Télécharger →](https://github.com/r97sgkjtdh-ops/ovra/releases/latest) · [Documentation →](https://github.com/r97sgkjtdh-ops/ovra#readme)
 
+## Nouveau projet · Octo
+
+**Des terminaux côte à côte, pour faire travailler plusieurs IA en équipe sur un Mac.**
+
+Octo ouvre jusqu’à seize terminaux dans une seule fenêtre. Chacun fait tourner une IA en ligne de commande (Claude Code, Codex, Gemini CLI, Aider…) ou un simple shell. Octo montre où en est chaque terminal, prévient quand une IA a fini ou attend ta réponse, et donne aux IA une commande commune, `t8`, pour se parler et se répartir le travail sans se marcher dessus.
+
+| Fonction | Utilité |
+| :--- | :--- |
+| **Une grille de 1 à 16 terminaux** | Chacun avec son dossier, son IA et son état en direct. |
+| **La commande `t8`** | Depuis son terminal, une IA en lance une autre, lui pose une question, lit son écran ou attend qu’elle ait fini. |
+| **Le mode équipe** | Les IA d’un même projet réservent les fichiers avant de les modifier, s’envoient des messages et voient qui fait quoi. |
+| **Des garde-fous** | Écrire dans le shell d’un autre terminal, répondre à sa place ou changer un réglage sensible demande ton accord. |
+
+Octo 2.0 est une application native en Swift et AppKit, construite sur SwiftTerm. Elle est encore en version alpha, et son code reste privé pour l’instant.
+
 ## Ma démarche
 
 - **Partir de l’usage** : comprendre le besoin avant d’ajouter des fonctionnalités.
@@ -155,6 +173,7 @@ L’application est distribuée via GitHub Releases. Le dépôt public rassemble
 ## Mes priorités de progression
 
 - **Faire évoluer Ovra** à partir des usages et des problèmes rencontrés.
+- **Mener Octo jusqu’à une première version stable.**
 - **Approfondir le développement web**, de l’interface aux échanges avec une API.
 - **Renforcer la qualité du code** : responsabilités claires, erreurs explicites et tests utiles.
 - **Mieux documenter les projets** avec des exemples, des captures et des instructions reproductibles.
@@ -162,7 +181,7 @@ L’application est distribuée via GitHub Releases. Le dépôt public rassemble
 
 ## Ce que je souhaite partager ici
 
-Des applications, leurs évolutions et les choix techniques qui les accompagnent. Pour Ovra, les versions publiées et la documentation sont accessibles sur GitHub. Les autres domaines présentés sur ce profil décrivent mes centres d’intérêt et mes axes de progression.
+Des applications, leurs évolutions et les choix techniques qui les accompagnent. Pour Ovra, les versions publiées et la documentation sont accessibles sur GitHub ; Octo est encore en développement. Les autres domaines présentés sur ce profil décrivent mes centres d’intérêt et mes axes de progression.
 
 ## Échanger autour du projet
 

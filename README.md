@@ -20,6 +20,8 @@
 <p align="center">
   <a href="#hi-im-vel">About</a> ·
   <a href="#featured-project--ovra">Ovra</a> ·
+  <a href="#new-project--octo">Octo</a> ·
+  <a href="https://vel-portfolio-xi.vercel.app">Portfolio</a> ·
   <a href="https://github.com/r97sgkjtdh-ops/ovra/releases/latest">Download</a> ·
   <a href="https://github.com/r97sgkjtdh-ops/ovra/issues">Feedback</a>
 </p>
@@ -28,13 +30,13 @@
 
 I build applications and explore **web development**, **Swift**, and tools that make developers’ work easier. I enjoy turning an idea into a clear interface, then building the behavior that makes it useful.
 
-My main project is **Ovra**, a native macOS application built with Swift. It brings consoles together and organizes coding agents around missions, tasks, and checks.
+My main project is **Ovra**, a native macOS application built with Swift. It brings consoles together and organizes coding agents around missions, tasks, and checks. My newest one is **Octo**, also native and written in Swift: terminals side by side, where several AIs work as a team.
 
 ## From a need to an application
 
 What interests me is the connection between **code, interface design, and real-world use**. A feature should make sense on screen, help with an actual task, and remain maintainable as the application evolves.
 
-I pay particular attention to visibility: the state of a task, the result of a command, the progress of an operation, or an error that needs attention. This approach is central to Ovra.
+I pay particular attention to visibility: the state of a task, the result of a command, the progress of an operation, or an error that needs attention. This approach is central to Ovra and Octo.
 
 ## Areas of interest
 
@@ -47,8 +49,8 @@ I pay particular attention to visibility: the state of a task, the result of a c
 
 | Area | Technologies and interests |
 | :--- | :--- |
-| Current application | Swift, SwiftUI, AppKit |
-| Web technologies I’m exploring | HTML, CSS, JavaScript, TypeScript |
+| Current applications | Swift, SwiftUI, AppKit; SwiftTerm for Octo’s terminals |
+| Web | HTML, CSS, JavaScript (my portfolio site); TypeScript to explore |
 | Scripting and automation | Bash; an interest in Python |
 | Development and verification | Git, GitHub Actions, Swift Package Manager, XCTest |
 | Ovra’s macOS integrations | WebKit, CryptoKit, PDFKit, Charts |
@@ -68,17 +70,18 @@ Web development is an area I want to explore further, from the interface to the 
 | **APIs and data** | Client-server communication, input validation, and error handling. |
 | **Performance** | Avoiding unnecessary loading and keeping interfaces responsive. |
 
-**HTML and CSS** for structure and presentation; **JavaScript and TypeScript** for interactions and application logic. These are learning interests, rather than a list of shipped web projects.
+**HTML and CSS** for structure and presentation; **JavaScript and TypeScript** for interactions and application logic. My first shipped web project is [my portfolio](https://vel-portfolio-xi.vercel.app): a single page in plain HTML, CSS, and JavaScript, with canvas animations and no framework. The rest are learning interests.
 
 ## Swift & the Apple ecosystem
 
-Through Ovra, native development is the most concrete part of my portfolio.
+Through Ovra and Octo, native development is the most concrete part of my portfolio.
 
 - **Swift** for application logic, data models, and operations.
 - **SwiftUI and AppKit** for views, windows, and macOS integration.
 - **WebKit** for the integrated browser and **PDFKit** for PDF functionality.
 - **Charts** for usage visualizations.
 - **CryptoKit** for cryptographic mechanisms used by updates.
+- **SwiftTerm** for terminal emulation in Octo.
 - **XCTest and GitHub Actions** for automated verification alongside changes.
 
 What draws me to this environment is desktop integration, consistent interactions, and access to the capabilities of the operating system.
@@ -141,6 +144,21 @@ The application is distributed through GitHub Releases. The public repository co
 
 [Explore the project →](https://github.com/r97sgkjtdh-ops/ovra) · [Download →](https://github.com/r97sgkjtdh-ops/ovra/releases/latest) · [Documentation →](https://github.com/r97sgkjtdh-ops/ovra#readme)
 
+## New project · Octo
+
+**Terminals side by side, so several AIs can work as a team on a Mac.**
+
+Octo opens up to sixteen terminals in a single window. Each one runs a command-line AI (Claude Code, Codex, Gemini CLI, Aider…) or a plain shell. Octo shows where each terminal stands, tells you when an AI has finished or is waiting for your answer, and gives the AIs a shared command, `t8`, to talk to each other and split the work without stepping on each other.
+
+| Feature | Purpose |
+| :--- | :--- |
+| **A grid of 1 to 16 terminals** | Each with its own folder, its own AI, and a live state. |
+| **The `t8` command** | From its terminal, an AI starts another one, asks it a question, reads its screen, or waits for it to finish. |
+| **Team mode** | AIs in the same project reserve files before changing them, send each other messages, and see who is doing what. |
+| **Safeguards** | Writing in another terminal’s shell, answering in its place, or changing a sensitive setting needs your approval. |
+
+Octo 2.0 is a native Swift and AppKit application built on SwiftTerm. It is still an alpha, and its code is private for now.
+
 ## How I approach development
 
 - **Start with the use case** — understand the need before adding features.
@@ -152,6 +170,7 @@ The application is distributed through GitHub Releases. The public repository co
 ## What I want to work on next
 
 - **Develop Ovra further** around actual usage and reported problems.
+- **Bring Octo to a first stable version.**
 - **Explore web development** from interfaces to API communication.
 - **Strengthen code quality** with clear responsibilities, explicit errors, and useful tests.
 - **Improve documentation** with examples, screenshots, and reproducible instructions.
@@ -159,7 +178,7 @@ The application is distributed through GitHub Releases. The public repository co
 
 ## What you’ll find here
 
-Applications, their evolution, and the technical choices behind them. Ovra’s published releases and documentation are available on GitHub. The other areas on this profile describe my interests and learning directions.
+Applications, their evolution, and the technical choices behind them. Ovra’s published releases and documentation are available on GitHub; Octo is still in development. The other areas on this profile describe my interests and learning directions.
 
 ## Project feedback
 
